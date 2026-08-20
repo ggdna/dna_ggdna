@@ -1,0 +1,20 @@
+{
+  // This package is a DNA layer: dna/ is hand-authored source and is the
+  // last layer of its own instantiation.
+  "version": 1,
+
+  // The ggdna umbrella: it pulls in every topic layer, so adding this
+  // one layer gives a repo the whole set. Parents first, this layer wins.
+  // dna_scripts comes along through dna_gg, which calls those scripts.
+  "layers": [
+    "dna_readme",
+    "dna_guides",
+    "dna_translate",
+    "dna_index",
+    "dna_blog",
+    "dna_install",
+    "dna_vscode",
+    "dna_clean_code",
+    "dna_gg"
+  ]
+}

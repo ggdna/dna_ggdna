@@ -1,0 +1,52 @@
+{
+  "name": "@ggdna/dna-ggdna",
+  "version": "0.1.0",
+  "description": "DNA of all ggdna repos: everything needed to author a DNA layer",
+  "keywords": [
+    "dna",
+    "helix",
+    "conventions",
+    "scaffolding"
+  ],
+  "homepage": "https://github.com/ggdna/dna_ggdna",
+  "bugs": "https://github.com/ggdna/dna_ggdna/issues",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggdna/dna_ggdna.git"
+  },
+  "type": "module",
+  "files": [
+    "dna",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test:dart": "dart test",
+    "test": "pnpm run test:dart",
+    "prepublishOnly": "pnpm run test",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "prettier": "^3.9.6"
+  },
+  "dependencies": {
+    "@ggdna/dna-blog": "^0.1.0",
+    "@ggdna/dna-clean-code": "^0.1.0",
+    "@ggdna/dna-guides": "^0.1.0",
+    "@ggdna/dna-index": "^0.1.0",
+    "@ggdna/dna-install": "^0.1.0",
+    "@ggdna/dna-readme": "^0.1.0",
+    "@ggdna/dna-translate": "^0.1.0",
+    "@ggdna/dna-vscode": "^0.1.0",
+    "@ggdna/dna-gg": "^0.1.1"
+  }
+}
