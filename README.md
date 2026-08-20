@@ -2,7 +2,20 @@
 
 The DNA of every ggdna repo — everything needed to author a DNA layer.
 
-It pulls in the whole set of topic layers and adds the one topic that is ours: how a DNA layer itself is built, configured and published.
+It pulls in the whole set of topic layers and adds the one topic that is
+ours: how a DNA layer itself is built, configured and published.
+
+## Guides
+
+- `dna/doc/guides/dna-guide.md` — the `dna/` layout and the `dot-`
+  escape, what belongs in `_dna.json` and `_vars.json`, the three
+  override mechanisms, and publishing one layer to both registries
+
+## Skills
+
+- `/dna` — checks this layer against the DNA guide: paths that would not
+  instantiate, layers that are not dependencies, variables nothing
+  declares, and manifests that drifted apart
 
 ## Layers
 
@@ -17,18 +30,6 @@ It pulls in the whole set of topic layers and adds the one topic that is ours: h
 | [dna_vscode](https://github.com/ggdna/dna_vscode) | shared editor settings and extensions |
 | [dna_clean_code](https://github.com/ggdna/dna_clean_code) | how code is written and tested, per language |
 | [dna_gg](https://github.com/ggdna/dna_gg) | the gg workflow, and the scripts it calls |
-
-## Guides
-
-- `dna/doc/guides/dna-guide.md` — how a DNA layer is built here: the
-  `dna/` layout and the `dot-` escape, `_dna.json` and `_vars.json`, the
-  override mechanisms, and publishing the same layer to both registries
-
-## Skills
-
-- `/dna` — checks this layer against the DNA guide and reports what would
-  break for a consumer
-
 
 ## Variables
 

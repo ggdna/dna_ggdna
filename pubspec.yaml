@@ -1,6 +1,6 @@
 name: dna_ggdna
 description: "DNA of all ggdna repos: everything needed to author a DNA layer"
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/ggdna/dna_ggdna.git
 
 environment:
