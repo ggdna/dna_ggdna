@@ -1,0 +1,15 @@
+# Created by gg_localize_refs. The overrides section redirects
+# the dependencies of package.json to the sibling checkouts of
+# this workspace without touching their published constraints.
+# change-refs-to-pub-dev removes the section again.
+overrides:
+  "@ggdna\/dna-blog": link:../dna_blog
+  "@ggdna\/dna-clean-code": link:../dna_clean_code
+  "@ggdna\/dna-guides": link:../dna_guides
+  "@ggdna\/dna-index": link:../dna_index
+  "@ggdna\/dna-install": link:../dna_install
+  "@ggdna\/dna-readme": link:../dna_readme
+  "@ggdna\/dna-translate": link:../dna_translate
+  "@ggdna\/dna-vscode": link:../dna_vscode
+  "@ggdna\/dna-gg": link:../dna_gg
+  "@ggdna\/dna-scripts": link:../dna_scripts
