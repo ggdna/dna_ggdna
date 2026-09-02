@@ -4,9 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  '@ggdna/dna-helix': link:../dna_helix
-
 importers:
 
   .:
@@ -24,8 +21,8 @@ importers:
         specifier: ^0.1.0
         version: 0.1.0
       '@ggdna/dna-helix':
-        specifier: link:../dna_helix
-        version: link:../dna_helix
+        specifier: ^0.2.0
+        version: 0.2.0
       '@ggdna/dna-index':
         specifier: ^0.1.0
         version: 0.1.0
@@ -65,6 +62,10 @@ packages:
 
   '@ggdna/dna-guides@0.1.0':
     resolution: {integrity: sha512-rDC8AyGsoPBAvBAEAE9mq69YYFNlakX5RRNZk7ddNzrtpNTFmp9QvR+o4NpS2swzmgozGudNXnHJ82EjXOU3IQ==}
+    engines: {node: '>=22'}
+
+  '@ggdna/dna-helix@0.2.0':
+    resolution: {integrity: sha512-NmtD4U+Y+s8dsgGrGVmRCFibNc3wHP3VtVWu1OIS2gCPKXMNHKR21dJE8uE8aeRiOTB3XM3OiyKE86lhI/HrvQ==}
     engines: {node: '>=22'}
 
   '@ggdna/dna-index@0.1.0':
@@ -115,6 +116,8 @@ snapshots:
       '@ggdna/dna-scripts': 0.1.0
 
   '@ggdna/dna-guides@0.1.0': {}
+
+  '@ggdna/dna-helix@0.2.0': {}
 
   '@ggdna/dna-index@0.1.0': {}
 

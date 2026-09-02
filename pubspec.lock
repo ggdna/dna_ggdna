@@ -124,10 +124,11 @@ packages:
   dna_helix:
     dependency: "direct main"
     description:
-      path: "../dna_helix"
-      relative: true
-    source: path
-    version: "0.1.0"
+      name: dna_helix
+      sha256: cbf51df68d8cd3844c87f39ae9a21965fccfe8bd8f3dbb1d86f36d8bd0c8e54f
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.2.0"
   dna_index:
     dependency: "direct main"
     description:

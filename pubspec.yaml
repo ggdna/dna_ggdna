@@ -1,13 +1,13 @@
 name: dna_ggdna
 description: "DNA of all ggdna repos: everything needed to author a DNA layer"
-version: 0.1.1
+version: 0.2.0
 repository: https://github.com/ggdna/dna_ggdna.git
 
 environment:
   sdk: ">=3.13.0 <4.0.0"
 
 dependencies:
-  dna_helix: ^0.1.0
+  dna_helix: ^0.2.0
   dna_blog: ^0.1.0
   dna_clean_code: ^0.1.0
   dna_guides: ^0.1.0
