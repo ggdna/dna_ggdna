@@ -5,9 +5,17 @@
       "name": "base",
       "package": "helix",
       "ecosystem": null,
-      "resolvedVersion": "1.1.0",
+      "resolvedVersion": "1.3.0",
       "via": null,
       "hash": "0x705e486e88a93125"
+    },
+    {
+      "name": "dna-helix",
+      "package": "@ggdna/dna-helix",
+      "ecosystem": "node",
+      "resolvedVersion": "0.1.0",
+      "via": null,
+      "hash": "0xf0af6b5ef166ef2c"
     },
     {
       "name": "dna-readme",
@@ -75,19 +83,19 @@
     },
     {
       "name": "dna-scripts",
-      "package": "dna_scripts",
-      "ecosystem": "pub",
-      "resolvedVersion": "0.1.0",
+      "package": "@ggdna/dna-scripts",
+      "ecosystem": "node",
+      "resolvedVersion": "0.2.0",
       "via": "dna-gg",
-      "hash": "0x9ee08ef13ab4c8d3"
+      "hash": "0x97a76de8c8e53fb0"
     },
     {
       "name": "dna-gg",
       "package": "@ggdna/dna-gg",
       "ecosystem": "node",
-      "resolvedVersion": "0.1.1",
+      "resolvedVersion": "0.1.2",
       "via": null,
-      "hash": "0xb7b292a1a91dd05f"
+      "hash": "0xd5744033dd70c6a3"
     },
     {
       "name": "self",
@@ -95,13 +103,13 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x578ac18c4c1a44b6"
+      "hash": "0xdd0d7bdada5e6089"
     }
   ],
   "claude": {
     "claudeMdInclude": null
   },
-  "baseVersion": "1.1.0",
+  "baseVersion": "1.3.0",
   "baseHash": "0x705e486e88a93125",
   "instances": [
     {
@@ -178,7 +186,7 @@
     },
     {
       "path": ".github/workflows/quick_check.yaml",
-      "hash": "0xa61b5062f48e430c"
+      "hash": "0xf3320fb8f530a565"
     },
     {
       "path": ".vscode/extensions.json",
@@ -214,7 +222,7 @@
     },
     {
       "path": "doc/guides/dna-guide.md",
-      "hash": "0xec7f435a9d01ce2e"
+      "hash": "0x71f9ee11d1ea369d"
     },
     {
       "path": "doc/guides/dna-guides-guide.md",
@@ -362,7 +370,7 @@
     },
     {
       "path": "scripts/functions/get-repo-urls.js",
-      "hash": "0x4c7b3897973acec3"
+      "hash": "0xd101f8b49454b888"
     },
     {
       "path": "scripts/functions/get-version.js",

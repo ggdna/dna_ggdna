@@ -18,11 +18,18 @@ repo.
 ```bash
 mkdir dna_<topic> && cd dna_<topic>
 gg dna init
-gg dna add dna_ggdna
+gg dna add dna_helix
 ```
 
 `gg dna init` places `dna/_dna.json` and the test that runs the engine.
 Everything else you write yourself.
+
+A new topic layer takes `dna_helix` — this layer, which carries nothing
+but the authoring topic and has no parents of its own. It cannot take
+`dna_ggdna`: the umbrella lists every topic layer, so a layer that is
+itself part of the umbrella would close a cycle back onto itself, and the
+engine refuses that. A repo that is *not* one of the topic layers takes
+`dna_ggdna` instead and gets the whole set in one go.
 
 ## Lay out `dna/`
 
