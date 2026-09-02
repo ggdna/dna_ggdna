@@ -15,7 +15,7 @@
       "ecosystem": "node",
       "resolvedVersion": "0.1.0",
       "via": null,
-      "hash": "0xf0af6b5ef166ef2c"
+      "hash": "0x3ef515a6d58f3d14"
     },
     {
       "name": "dna-readme",
@@ -222,7 +222,7 @@
     },
     {
       "path": "doc/guides/dna-guide.md",
-      "hash": "0x71f9ee11d1ea369d"
+      "hash": "0x364ae798d1eb3add"
     },
     {
       "path": "doc/guides/dna-guides-guide.md",
