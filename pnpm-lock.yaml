@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  '@ggdna/dna-helix': link:../dna_helix
+
 importers:
 
   .:
@@ -15,11 +18,14 @@ importers:
         specifier: ^0.1.0
         version: 0.1.0
       '@ggdna/dna-gg':
-        specifier: ^0.1.1
-        version: 0.1.1
+        specifier: ^0.1.2
+        version: 0.1.2
       '@ggdna/dna-guides':
         specifier: ^0.1.0
         version: 0.1.0
+      '@ggdna/dna-helix':
+        specifier: link:../dna_helix
+        version: link:../dna_helix
       '@ggdna/dna-index':
         specifier: ^0.1.0
         version: 0.1.0
@@ -37,8 +43,8 @@ importers:
         version: 0.1.0
     devDependencies:
       '@types/node':
-        specifier: ^26.2.0
-        version: 26.2.0
+        specifier: ^26.4.1
+        version: 26.4.1
       prettier:
         specifier: ^3.9.6
         version: 3.9.6
@@ -53,8 +59,8 @@ packages:
     resolution: {integrity: sha512-XdXcQDehDdDnxTvgTsDwfj8cFYIer2EwPacB2paBr9po4tAznuoPza4nWztMgdgnsb69cyEN3ifEfWfG6KQg7w==}
     engines: {node: '>=22'}
 
-  '@ggdna/dna-gg@0.1.1':
-    resolution: {integrity: sha512-Yw4BUdfqtMh8eP45NRaQzvSF7N4SdDUCW7ovaXhM3PHYaDlg0KybSTqj85cIeSQkNaimknrZMMlFmOH4b/WJYQ==}
+  '@ggdna/dna-gg@0.1.2':
+    resolution: {integrity: sha512-snPWQAyykez3lfKfV2yxWqrhOUMAylw3WMz4amUZDo45vL7YTp5IBYxn1SReFbgPzrfMnGCzCDiunHbB0k6vXA==}
     engines: {node: '>=22'}
 
   '@ggdna/dna-guides@0.1.0':
@@ -85,8 +91,8 @@ packages:
     resolution: {integrity: sha512-AJUepqecIAQnJrKsLLPYueDnTxZu1SdgMqbzL+MX5CrcpjCfl7rxfzvblczI0KA7xeMLe9CUMvmAASNOz+q72w==}
     engines: {node: '>=22'}
 
-  '@types/node@26.2.0':
-    resolution: {integrity: sha512-5IviulTZeRNp2vAJ514cc/HUlY5nZ9fCbq9DMyC52BrhFZACo3nI0R7qBxhQmo/d27NFe96ur/b7Wwxklda+kg==}
+  '@types/node@26.4.1':
+    resolution: {integrity: sha512-k97ENvZWtvA6yqz5/FS6a7duDgOPEeOQOc2iKS/nY6mX6qJUKtLnWzQS+Xj6tXweyj6ZcTAK2Qecetnvi9nCLA==}
 
   prettier@3.9.6:
     resolution: {integrity: sha512-OpN0zzVdiaiAhxpuuj5efpIS4sY9j7bY6uR5mnj5yPzGkdkjNKSJeUThPb60Jw29QuAZgA4o+/iB49kFiaBX6g==}
@@ -102,7 +108,7 @@ snapshots:
 
   '@ggdna/dna-clean-code@0.1.0': {}
 
-  '@ggdna/dna-gg@0.1.1':
+  '@ggdna/dna-gg@0.1.2':
     dependencies:
       '@ggdna/dna-index': 0.1.0
       '@ggdna/dna-install': 0.1.0
@@ -122,7 +128,7 @@ snapshots:
 
   '@ggdna/dna-vscode@0.1.0': {}
 
-  '@types/node@26.2.0':
+  '@types/node@26.4.1':
     dependencies:
       undici-types: 8.3.0
 

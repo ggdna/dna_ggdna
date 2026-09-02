@@ -2,34 +2,26 @@
 
 The DNA of every ggdna repo — everything needed to author a DNA layer.
 
-It pulls in the whole set of topic layers and adds the one topic that is
-ours: how a DNA layer itself is built, configured and published.
-
-## Guides
-
-- `dna/doc/guides/dna-guide.md` — the `dna/` layout and the `dot-`
-  escape, what belongs in `_dna.json` and `_vars.json`, the three
-  override mechanisms, and publishing one layer to both registries
-
-## Skills
-
-- `/dna` — checks this layer against the DNA guide: paths that would not
-  instantiate, layers that are not dependencies, variables nothing
-  declares, and manifests that drifted apart
+It is the umbrella: it carries no topic of its own and pulls in the whole
+set, so one layer gives a repo all of them. The authoring topic lives in
+[dna_helix](https://github.com/ggdna/dna_helix), which the topic layers
+consume directly — they cannot take this umbrella, because it lists them
+back and the engine rejects a graph in which the consuming repo reappears.
 
 ## Layers
 
-| Layer | What it brings |
-| --- | --- |
-| [dna_readme](https://github.com/ggdna/dna_readme) | README structure and templates |
-| [dna_guides](https://github.com/ggdna/dna_guides) | developer and AI guides |
-| [dna_translate](https://github.com/ggdna/dna_translate) | multi-language docs, de and en in sync |
-| [dna_index](https://github.com/ggdna/dna_index) | index and navigation files |
-| [dna_blog](https://github.com/ggdna/dna_blog) | blog format, templates, layout |
-| [dna_install](https://github.com/ggdna/dna_install) | install guides: editor, node, Azure, tooling |
-| [dna_vscode](https://github.com/ggdna/dna_vscode) | shared editor settings and extensions |
-| [dna_clean_code](https://github.com/ggdna/dna_clean_code) | how code is written and tested, per language |
-| [dna_gg](https://github.com/ggdna/dna_gg) | the gg workflow, and the scripts it calls |
+| Layer                                                     | What it brings                                                  |
+| --------------------------------------------------------- | --------------------------------------------------------------- |
+| [dna_helix](https://github.com/ggdna/dna_helix)           | how a DNA layer is authored: the DNA guide and the `/dna` skill |
+| [dna_readme](https://github.com/ggdna/dna_readme)         | README structure and templates                                  |
+| [dna_guides](https://github.com/ggdna/dna_guides)         | developer and AI guides                                         |
+| [dna_translate](https://github.com/ggdna/dna_translate)   | multi-language docs, de and en in sync                          |
+| [dna_index](https://github.com/ggdna/dna_index)           | index and navigation files                                      |
+| [dna_blog](https://github.com/ggdna/dna_blog)             | blog format, templates, layout                                  |
+| [dna_install](https://github.com/ggdna/dna_install)       | install guides: editor, node, Azure, tooling                    |
+| [dna_vscode](https://github.com/ggdna/dna_vscode)         | shared editor settings and extensions                           |
+| [dna_clean_code](https://github.com/ggdna/dna_clean_code) | how code is written and tested, per language                    |
+| [dna_gg](https://github.com/ggdna/dna_gg)                 | the gg workflow, and the scripts it calls                       |
 
 ## Variables
 

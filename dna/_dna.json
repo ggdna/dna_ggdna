@@ -5,8 +5,10 @@
 
   // The ggdna umbrella: it pulls in every topic layer, so adding this
   // one layer gives a repo the whole set. Parents first, this layer wins.
+  // dna_helix comes first because every other layer builds on it.
   // dna_scripts comes along through dna_gg, which calls those scripts.
   "layers": [
+    "dna_helix",
     "dna_readme",
     "dna_guides",
     "dna_translate",

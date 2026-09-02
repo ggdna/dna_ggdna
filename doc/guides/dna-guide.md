@@ -18,11 +18,23 @@ repo.
 ```bash
 mkdir dna_<topic> && cd dna_<topic>
 gg dna init
-gg dna add dna_ggdna
 ```
 
 `gg dna init` places `dna/_dna.json` and the test that runs the engine.
 Everything else you write yourself.
+
+A new topic layer declares no parent, for two reasons. `dna_ggdna` lists
+every topic layer, so a layer that took the umbrella back would close a
+cycle and the engine refuses that. And a layer's parents reach every
+consumer of that layer — a parent here would push its content into every
+repo downstream, whether that repo asked for the topic or not. Keep the
+topic orthogonal; composing is what the umbrella is for.
+
+A repo that is not itself a topic layer takes the whole set in one go:
+
+```bash
+gg dna add dna_ggdna
+```
 
 ## Lay out `dna/`
 
