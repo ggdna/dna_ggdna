@@ -117,6 +117,13 @@ packages:
       relative: true
     source: path
     version: "0.1.0"
+  dna_helix:
+    dependency: "direct main"
+    description:
+      path: "../dna_helix"
+      relative: true
+    source: path
+    version: "0.1.0"
   dna_index:
     dependency: "direct main"
     description:

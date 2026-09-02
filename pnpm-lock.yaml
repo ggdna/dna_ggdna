@@ -15,6 +15,7 @@ overrides:
   '@ggdna/dna-vscode': link:../dna_vscode
   '@ggdna/dna-gg': link:../dna_gg
   '@ggdna/dna-scripts': link:../dna_scripts
+  '@ggdna/dna-helix': link:../dna_helix
 
 importers:
 
@@ -32,6 +33,9 @@ importers:
       '@ggdna/dna-guides':
         specifier: link:../dna_guides
         version: link:../dna_guides
+      '@ggdna/dna-helix':
+        specifier: link:../dna_helix
+        version: link:../dna_helix
       '@ggdna/dna-index':
         specifier: link:../dna_index
         version: link:../dna_index

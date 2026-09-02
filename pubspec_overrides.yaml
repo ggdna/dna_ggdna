@@ -26,3 +26,5 @@ dependency_overrides:
     path: ../dna_gg
   dna_scripts:
     path: ../dna_scripts
+  dna_helix:
+    path: ../dna_helix

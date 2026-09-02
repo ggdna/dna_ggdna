@@ -13,3 +13,4 @@ overrides:
   "@ggdna\/dna-vscode": link:../dna_vscode
   "@ggdna\/dna-gg": link:../dna_gg
   "@ggdna\/dna-scripts": link:../dna_scripts
+  "@ggdna\/dna-helix": link:../dna_helix
