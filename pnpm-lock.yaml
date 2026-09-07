@@ -32,6 +32,9 @@ importers:
       '@ggdna/dna-readme':
         specifier: ^0.1.0
         version: 0.1.0
+      '@ggdna/dna-scripts':
+        specifier: ^0.2.0
+        version: 0.2.0
       '@ggdna/dna-translate':
         specifier: ^0.1.0
         version: 0.1.0
@@ -84,6 +87,10 @@ packages:
     resolution: {integrity: sha512-wDrYb0klJkOnoB9x4X5NTQ6C6pkxa4sjBmiDJPGXiivL1SkkNVCFW6vYsShaeXNG6e9nMDKfuAkCh702XRMDhw==}
     engines: {node: '>=22'}
 
+  '@ggdna/dna-scripts@0.2.0':
+    resolution: {integrity: sha512-q0tuVR2mEJZoMlNwMvYxOcZyhnuDJM6bpAwmsQIWwg8x91xRyvcaW5wxT9dbOXrckunrZ5osJexWj5MoPkaZiw==}
+    engines: {node: '>=22'}
+
   '@ggdna/dna-translate@0.1.0':
     resolution: {integrity: sha512-d1tuX4pVroYvd1ZLzjjMxxesQygPuNEpknET9UpFEv7qQvRiLlVenJ36JzrqQD/M752TDf2VEuEdPZLa9Gv6mw==}
     engines: {node: '>=22'}
@@ -126,6 +133,8 @@ snapshots:
   '@ggdna/dna-readme@0.1.0': {}
 
   '@ggdna/dna-scripts@0.1.0': {}
+
+  '@ggdna/dna-scripts@0.2.0': {}
 
   '@ggdna/dna-translate@0.1.0': {}
 
