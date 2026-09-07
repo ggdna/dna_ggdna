@@ -154,7 +154,7 @@ packages:
     source: hosted
     version: "0.1.0"
   dna_scripts:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: dna_scripts
       sha256: e14ff865c5640323e99fc122961e14b81338f205c65721d3b4d7bdf8763d6b16
