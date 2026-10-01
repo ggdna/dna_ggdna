@@ -35,8 +35,8 @@
     "format:check": "prettier --check ."
   },
   "devDependencies": {
-    "@types/node": "^26.4.1",
-    "prettier": "^3.9.6"
+    "@types/node": "^26.6.3",
+    "prettier": "^3.9.9"
   },
   "dependencies": {
     "@ggdna/dna-blog": "^0.1.1",
