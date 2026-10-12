@@ -5,18 +5,18 @@ packages:
     dependency: transitive
     description:
       name: _fe_analyzer_shared
-      sha256: fdcd9f70f9eb80df3bc5ed0fa67280df2595fd481948df8a9ab082e6a40ad04b
+      sha256: "48e48f73a431eb269eec66d243a63a07ed90ef9417a74047a3b98d52338626ad"
       url: "https://pub.dev"
     source: hosted
-    version: "108.0.0"
+    version: "109.0.0"
   analyzer:
     dependency: transitive
     description:
       name: analyzer
-      sha256: a51c769bff3b6dfbe9d60199b8606d808290702a296bef0c26a4ca391d414e46
+      sha256: "6d377901d198536b648172974d9d4f277910502cad92193466869cac0ff34990"
       url: "https://pub.dev"
     source: hosted
-    version: "14.4.0"
+    version: "14.5.0"
   args:
     dependency: transitive
     description:
@@ -92,91 +92,87 @@ packages:
   dna_blog:
     dependency: "direct main"
     description:
-      name: dna_blog
-      sha256: b97de6c6be5de8b5cdb6347f4ff286b2f4f485b2e78857d7cf43ac4fc7634165
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.1"
+      path: "../dna_blog"
+      relative: true
+    source: path
+    version: "0.1.2"
   dna_clean_code:
     dependency: "direct main"
     description:
-      name: dna_clean_code
-      sha256: "50d0b36bc84f47293a75070311d90e688162ceccaebb224444b739bde3df1de3"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.1"
+      path: "../dna_clean_code"
+      relative: true
+    source: path
+    version: "0.1.2"
   dna_gg:
     dependency: "direct main"
     description:
-      name: dna_gg
-      sha256: a6108d86d02702efb96374578f11a48ef46259a8596fec66553688f17df18b0d
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.6.0"
+      path: "../dna_gg"
+      relative: true
+    source: path
+    version: "0.7.1"
+  dna_github:
+    dependency: "direct overridden"
+    description:
+      path: "../dna_github"
+      relative: true
+    source: path
+    version: "0.0.3"
   dna_guides:
     dependency: "direct main"
     description:
-      name: dna_guides
-      sha256: "5b54a28d9158f8c187cfacc3c0fe88ee9d696bc36902cb173a0486973003085c"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.1"
+      path: "../dna_guides"
+      relative: true
+    source: path
+    version: "0.1.2"
   dna_helix:
     dependency: "direct main"
     description:
-      name: dna_helix
-      sha256: cbf51df68d8cd3844c87f39ae9a21965fccfe8bd8f3dbb1d86f36d8bd0c8e54f
-      url: "https://pub.dev"
-    source: hosted
+      path: "../dna_helix"
+      relative: true
+    source: path
     version: "0.2.0"
   dna_index:
     dependency: "direct main"
     description:
-      name: dna_index
-      sha256: a3ceacd91cf1a0190ee6386f70f4213be0c2ec55e09cb0c3d255cbb718bad4fa
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.2"
+      path: "../dna_index"
+      relative: true
+    source: path
+    version: "0.1.3"
   dna_install:
     dependency: "direct main"
     description:
-      name: dna_install
-      sha256: "4ec89e66965f9b8d40a0ea920fd888bff86e5cbef3f9a4aae57d1e70618a765e"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.2"
+      path: "../dna_install"
+      relative: true
+    source: path
+    version: "0.1.3"
   dna_readme:
     dependency: "direct main"
     description:
-      name: dna_readme
-      sha256: b98766ea5b3437252a4a0370b2aba3d30fc815144134c86952a8f470a179216c
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.1"
+      path: "../dna_readme"
+      relative: true
+    source: path
+    version: "0.1.2"
   dna_scripts:
     dependency: "direct main"
     description:
-      name: dna_scripts
-      sha256: "3de48da556befdc37d802f34800ebd57a584030f1f7ef8582a6e1a5b5c2d4901"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.2.2"
+      path: "../dna_scripts"
+      relative: true
+    source: path
+    version: "0.2.3"
   dna_translate:
     dependency: "direct main"
     description:
-      name: dna_translate
-      sha256: "32d468473e71ba927acda3fcb970df4e00775fcdbc4609195f7cace0bf3c2b5b"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.1"
+      path: "../dna_translate"
+      relative: true
+    source: path
+    version: "0.1.2"
   dna_vscode:
     dependency: "direct main"
     description:
-      name: dna_vscode
-      sha256: "7bead1b4ca9dc7e1229124ba39773cf7ebf2a9185400a5d12a6d1d26ef16dacf"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.2.1"
+      path: "../dna_vscode"
+      relative: true
+    source: path
+    version: "0.2.4"
   file:
     dependency: transitive
     description:
@@ -189,10 +185,10 @@ packages:
     dependency: transitive
     description:
       name: frontend_server_client
-      sha256: f64a0333a82f30b0cca061bc3d143813a486dc086b574bfb233b7c1372427694
+      sha256: "404dbf9bce29beafbe9dcb19219447b6f7d49900cd42b8d3b7af102b24508e25"
       url: "https://pub.dev"
     source: hosted
-    version: "4.0.0"
+    version: "4.1.0"
   gg_args:
     dependency: transitive
     description:
@@ -260,11 +256,10 @@ packages:
   helix:
     dependency: "direct dev"
     description:
-      name: helix
-      sha256: "0eb0407fddd8431dbdc50660deb00a98f9dcc01c6d51769d48e6d9351da2df92"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.9.0"
+      path: "../helix"
+      relative: true
+    source: path
+    version: "1.11.0"
   http_multi_server:
     dependency: transitive
     description:
@@ -477,26 +472,26 @@ packages:
     dependency: "direct dev"
     description:
       name: test
-      sha256: de5d145b0afff7921e5e788a880f52d7e5f3ae24068a202f6fd3b58e4ba26323
+      sha256: "44b2fccf4407bcdb5e105c064c5d6b5e2a640c87761f8b03cdce8cf532d98cfa"
       url: "https://pub.dev"
     source: hosted
-    version: "1.32.0"
+    version: "1.33.0"
   test_api:
     dependency: transitive
     description:
       name: test_api
-      sha256: "0a10344e901e5b2e63819567951cb6a06673ed6b84f40462188ff5a0c41f371f"
+      sha256: "47481c58bb92d0b1d218f0510ff5647e768f8e1256d07077a151fb520923b51d"
       url: "https://pub.dev"
     source: hosted
-    version: "0.7.14"
+    version: "0.7.15"
   test_core:
     dependency: transitive
     description:
       name: test_core
-      sha256: "80f3fb49087454e07e7e07c67578cfdd156c8c3a5227d8b3f47c7b2d019c2e93"
+      sha256: "9dec4c178bd61493e1cd2060ffe701fcb61c43da2493e99590fb1b0cc82eb4af"
       url: "https://pub.dev"
     source: hosted
-    version: "0.6.20"
+    version: "0.6.21"
   typed_data:
     dependency: transitive
     description:
