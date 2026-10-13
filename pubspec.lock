@@ -100,98 +100,86 @@ packages:
   dna_blog:
     dependency: "direct main"
     description:
-      name: dna_blog
-      sha256: fb03e9e4cf1a472252acd3f7d98d14314ee3fa9c61029e1742183cbba6176be6
-      url: "https://pub.dev"
-    source: hosted
+      path: "../dna_blog"
+      relative: true
+    source: path
     version: "0.2.0"
   dna_clean_code:
     dependency: "direct main"
     description:
-      name: dna_clean_code
-      sha256: ffd92ad0177e4517f024777f7d008ecb27b093ad5d39d5c70fca5b99bb7e5b59
-      url: "https://pub.dev"
-    source: hosted
+      path: "../dna_clean_code"
+      relative: true
+    source: path
     version: "0.2.0"
   dna_gg:
     dependency: "direct main"
     description:
-      name: dna_gg
-      sha256: f3b735f2f9e5525d5d90f592130970194ff74a6e6138d6bd1ed6e992c76c6654
-      url: "https://pub.dev"
-    source: hosted
+      path: "../dna_gg"
+      relative: true
+    source: path
     version: "0.8.0"
   dna_github:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
-      name: dna_github
-      sha256: "4d11a297d838f197dfbbebb488e37e8f5a195a2945622e93b57c792bb8685a94"
-      url: "https://pub.dev"
-    source: hosted
+      path: "../dna_github"
+      relative: true
+    source: path
     version: "0.1.0"
   dna_guides:
     dependency: "direct main"
     description:
-      name: dna_guides
-      sha256: aec729d7b5901715ae1c97ba80c920da4f1904ec958e7d46ba11fe376e1b1a08
-      url: "https://pub.dev"
-    source: hosted
+      path: "../dna_guides"
+      relative: true
+    source: path
     version: "0.2.0"
   dna_helix:
     dependency: "direct main"
     description:
-      name: dna_helix
-      sha256: "0dfb6f9acaee99342073afb4f2af9224af77a07348eeed10710aa8f317f83ce3"
-      url: "https://pub.dev"
-    source: hosted
+      path: "../dna_helix"
+      relative: true
+    source: path
     version: "0.3.0"
   dna_index:
     dependency: "direct main"
     description:
-      name: dna_index
-      sha256: "46ef1b45e9cbd0a8c57e2ab35a24540f0af0572e6aae87b775039121eed17801"
-      url: "https://pub.dev"
-    source: hosted
+      path: "../dna_index"
+      relative: true
+    source: path
     version: "0.2.0"
   dna_install:
     dependency: "direct main"
     description:
-      name: dna_install
-      sha256: ff9d22a1c0d8297e30e3e17944c9dea4528a652ad93d64c57c1aa0ad2408888d
-      url: "https://pub.dev"
-    source: hosted
+      path: "../dna_install"
+      relative: true
+    source: path
     version: "0.2.0"
   dna_readme:
     dependency: "direct main"
     description:
-      name: dna_readme
-      sha256: "2c4b0cc7b6d0fb8c1221c35f3b940fb8fbcfa2df2f86bb1a54d32e945720b56b"
-      url: "https://pub.dev"
-    source: hosted
+      path: "../dna_readme"
+      relative: true
+    source: path
     version: "0.2.0"
   dna_scripts:
     dependency: "direct main"
     description:
-      name: dna_scripts
-      sha256: cf5dffa1242fe06668c77664d65e1b86fc0db5127da636ead6f212e47e2127ba
-      url: "https://pub.dev"
-    source: hosted
+      path: "../dna_scripts"
+      relative: true
+    source: path
     version: "0.3.0"
   dna_translate:
     dependency: "direct main"
     description:
-      name: dna_translate
-      sha256: "06aadc3f20e2d0c81cfed89a7ed28e15ece41860b33b2b7912fd9e9179319965"
-      url: "https://pub.dev"
-    source: hosted
+      path: "../dna_translate"
+      relative: true
+    source: path
     version: "0.2.0"
   dna_vscode:
     dependency: "direct main"
     description:
-      name: dna_vscode
-      sha256: f2a75118bdf88095066629bd497509aa34a8bb14434a8cfd45b164593b31ae87
-      url: "https://pub.dev"
-    source: hosted
+      path: "../dna_vscode"
+      relative: true
+    source: path
     version: "0.3.0"
   ffi:
     dependency: transitive
@@ -284,10 +272,9 @@ packages:
   helix:
     dependency: "direct dev"
     description:
-      name: helix
-      sha256: e7aa11c1238624f942cd8c1f596978c5ad8add2b3e783ebad6afb4826108482a
-      url: "https://pub.dev"
-    source: hosted
+      path: "../helix"
+      relative: true
+    source: path
     version: "1.12.0"
   http_multi_server:
     dependency: transitive
