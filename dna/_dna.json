@@ -1,7 +1,7 @@
 {
   // This package is a DNA layer: dna/ is hand-authored source and is the
   // last layer of its own instantiation.
-  "version": 1,
+  "version": 2,
 
   // The ggdna umbrella: it pulls in every topic layer, so adding this
   // one layer gives a repo the whole set. Parents first, this layer wins.
@@ -19,5 +19,13 @@
     "dna_clean_code",
     "dna_scripts",
     "dna_gg"
-  ]
+  ],
+
+  // The topic layers ask every layer listing them for the copyright
+  // holder and the quick check pipeline name. dna/_vars.json sets the
+  // ones of this organization, so its repos need not set them again.
+  "mustOverride": {
+    "dnaCopyrightHolder": false,
+    "dnaGitQuickCheckPipelineName": false
+  }
 }
