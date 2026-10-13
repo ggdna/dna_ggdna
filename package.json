@@ -35,20 +35,20 @@
     "format:check": "prettier --check ."
   },
   "devDependencies": {
-    "@types/node": "^26.6.3",
-    "prettier": "^3.9.9"
+    "@types/node": "^26.6.5",
+    "prettier": "^3.9.10"
   },
   "dependencies": {
-    "@ggdna/dna-blog": "^0.1.1",
-    "@ggdna/dna-clean-code": "^0.1.1",
-    "@ggdna/dna-gg": "^0.6.0",
-    "@ggdna/dna-guides": "^0.1.1",
-    "@ggdna/dna-helix": "^0.2.0",
-    "@ggdna/dna-index": "^0.1.2",
-    "@ggdna/dna-install": "^0.1.2",
-    "@ggdna/dna-readme": "^0.1.1",
-    "@ggdna/dna-scripts": "^0.2.2",
-    "@ggdna/dna-translate": "^0.1.1",
-    "@ggdna/dna-vscode": "^0.2.1"
+    "@ggdna/dna-blog": "^0.2.0",
+    "@ggdna/dna-clean-code": "^0.2.0",
+    "@ggdna/dna-gg": "^0.8.0",
+    "@ggdna/dna-guides": "^0.2.0",
+    "@ggdna/dna-helix": "^0.3.0",
+    "@ggdna/dna-index": "^0.2.0",
+    "@ggdna/dna-install": "^0.2.0",
+    "@ggdna/dna-readme": "^0.2.0",
+    "@ggdna/dna-scripts": "^0.3.0",
+    "@ggdna/dna-translate": "^0.2.0",
+    "@ggdna/dna-vscode": "^0.3.0"
   }
 }
