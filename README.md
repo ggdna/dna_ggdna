@@ -27,6 +27,12 @@ back and the engine rejects a graph in which the consuming repo reappears.
 
 - `dnaCopyrightHolder` — the name in the license header of every file,
   set to `ggdna` here
+- `dnaCompany`, `dnaGitOrg`, `dnaGitOrgUrl` — the organization, set to
+  `ggdna` and `https://github.com/ggdna` here
+- `dnaJiraPrefix` — the prefix of a ticket id, set to `GGD` here
+
+The topic layers require these in the layer listing them. This layer sets
+them, so repos listing it need not.
 
 ## Usage
 
