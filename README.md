@@ -21,7 +21,7 @@ back and the engine rejects a graph in which the consuming repo reappears.
 | [dna_install](https://github.com/ggdna/dna_install)       | install guides: editor, node, Azure, tooling                    |
 | [dna_vscode](https://github.com/ggdna/dna_vscode)         | shared editor settings and extensions                           |
 | [dna_clean_code](https://github.com/ggdna/dna_clean_code) | how code is written and tested, per language                    |
-| [dna_gg](https://github.com/ggdna/dna_gg)                 | the gg workflow, and the scripts it calls                       |
+| [dna_gg](https://github.com/ggsuite/dna_gg)               | the gg workflow, and the scripts it calls                       |
 
 ## Variables
 
