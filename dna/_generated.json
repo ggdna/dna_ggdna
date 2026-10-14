@@ -71,7 +71,7 @@
       "ecosystem": "node",
       "resolvedVersion": "0.3.0",
       "via": null,
-      "hash": "0x9a76a39efcd34360"
+      "hash": "0xb1b916118eb63333"
     },
     {
       "name": "dna-clean-code",
@@ -101,7 +101,7 @@
       "name": "dna-gg",
       "package": "@ggdna/dna-gg",
       "ecosystem": "node",
-      "resolvedVersion": "0.8.0",
+      "resolvedVersion": "0.8.1",
       "via": null,
       "hash": "0xc0e2cebcfa39b9d7"
     },
@@ -111,7 +111,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x503575736ed110f3"
+      "hash": "0x40a58a0890dfbb7d"
     }
   ],
   "claude": {
@@ -135,7 +135,7 @@
     },
     {
       "path": ".claude/skills/gg-cleanup/SKILL.md",
-      "hash": "0x4a6903a51168486a"
+      "hash": "0x15d92a301168486a"
     },
     {
       "path": ".claude/skills/gg-commit/SKILL.md",
@@ -151,7 +151,7 @@
     },
     {
       "path": ".claude/skills/gg-ticket/SKILL.md",
-      "hash": "0xe2e320fd71159027"
+      "hash": "0xe5f827904be72c00"
     },
     {
       "path": ".claude/skills/gg/SKILL.md",
@@ -215,7 +215,7 @@
     },
     {
       "path": ".vscode/settings.json",
-      "hash": "0x477bad1dcad26a47"
+      "hash": "0xd6ee8b7a880f954e"
     },
     {
       "path": "doc/guides/blog-guide.md",
@@ -243,7 +243,7 @@
     },
     {
       "path": "doc/guides/dna-guide.md",
-      "hash": "0x364ae798d1eb3add"
+      "hash": "0xae953aa6dcea3875"
     },
     {
       "path": "doc/guides/dna-guides-guide.md",
@@ -255,7 +255,7 @@
     },
     {
       "path": "doc/guides/for-ai/ai-dev-guide.md",
-      "hash": "0xc1b1c84f6bf977cd"
+      "hash": "0xc24b6e8dc9260fdc"
     },
     {
       "path": "doc/guides/for-ai/ai-review-guide.md",
@@ -295,7 +295,7 @@
     },
     {
       "path": "doc/guides/install-guide/install-gg-guide.md",
-      "hash": "0x510fefeecbdcca87"
+      "hash": "0x62f03305af6ea37c"
     },
     {
       "path": "doc/guides/install-guide/install-gg-workspace-guide.md",
@@ -347,7 +347,7 @@
     },
     {
       "path": "doc/guides/vscode-guide.md",
-      "hash": "0xb5ad6bcdbae9c377"
+      "hash": "0xa4f54f39b68477a6"
     },
     {
       "path": "doc/templates/blog-template-de.md",
@@ -367,7 +367,7 @@
     },
     {
       "path": "doc/templates/readme-template.md",
-      "hash": "0x9ddc5c1598d3441a"
+      "hash": "0x507cc05b29fd6083"
     },
     {
       "path": "guides/setup-github-guide.md",
