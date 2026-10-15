@@ -17,10 +17,10 @@ importers:
         specifier: ^0.2.0
         version: 0.2.0
       '@ggdna/dna-clean-code':
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^0.2.1
+        version: 0.2.1
       '@ggdna/dna-gg':
-        specifier: link:../dna_gg
+        specifier: link:..\dna_gg
         version: link:../dna_gg
       '@ggdna/dna-guides':
         specifier: ^0.2.0
@@ -35,7 +35,7 @@ importers:
         specifier: ^0.2.0
         version: 0.2.0
       '@ggdna/dna-readme':
-        specifier: link:../dna_readme
+        specifier: link:..\dna_readme
         version: link:../dna_readme
       '@ggdna/dna-scripts':
         specifier: ^0.3.0
@@ -44,7 +44,7 @@ importers:
         specifier: ^0.2.0
         version: 0.2.0
       '@ggdna/dna-vscode':
-        specifier: link:../dna_vscode
+        specifier: link:..\dna_vscode
         version: link:../dna_vscode
     devDependencies:
       '@types/node':
@@ -60,8 +60,8 @@ packages:
     resolution: {integrity: sha512-ZQwZcfRIDgiqmdptMOgYeCoS7ysK+HV+G1ZZKLpOnoYaCDnvCrmYNKJ5iiqc5P/fThjV2n7LQoVswoYZozOBhw==}
     engines: {node: '>=22'}
 
-  '@ggdna/dna-clean-code@0.2.0':
-    resolution: {integrity: sha512-hOOdEhGWLZI0t1k+YghPz+FSlGxfbVcGo8RIaNQ+4vGP1TMzHhOcxFzL3pTyPWRpOYEfM09qrDRmlT6mn2ZgsQ==}
+  '@ggdna/dna-clean-code@0.2.1':
+    resolution: {integrity: sha512-EGTBhFi/Q37jLeNXhlaz39OAijQsOXQEo5QGX7TpgyJ7hrjx9+XlwwIsJYwrI0kDMKuRy5TAK1jmMVcf1WTR5Q==}
     engines: {node: '>=22'}
 
   '@ggdna/dna-guides@0.2.0':
@@ -103,7 +103,7 @@ snapshots:
 
   '@ggdna/dna-blog@0.2.0': {}
 
-  '@ggdna/dna-clean-code@0.2.0': {}
+  '@ggdna/dna-clean-code@0.2.1': {}
 
   '@ggdna/dna-guides@0.2.0': {}
 
