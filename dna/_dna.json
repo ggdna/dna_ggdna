@@ -22,10 +22,15 @@
   ],
 
   // The topic layers ask every layer listing them for the copyright
-  // holder and the quick check pipeline name. dna/_vars.json sets the
-  // ones of this organization, so its repos need not set them again.
+  // holder, the quick check pipeline name and the identity of the
+  // organization: company, GitHub org with its URL and ticket prefix.
+  // dna/_vars.json sets the ones of this organization, so its repos need not set them again.
   "mustOverride": {
     "dnaCopyrightHolder": false,
-    "dnaGitQuickCheckPipelineName": false
+    "dnaGitQuickCheckPipelineName": false,
+    "dnaCompany": false,
+    "dnaGitOrg": false,
+    "dnaGitOrgUrl": false,
+    "dnaJiraPrefix": false
   }
 }

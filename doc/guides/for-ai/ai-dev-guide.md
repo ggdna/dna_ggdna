@@ -22,15 +22,15 @@ question and never as a plain prose question:
 
 - Replace `~/dev/` by the workspace directory from the memory
 - Ask for the workspace directory if none is known
-- Replace `gGS-145` by the ticket ID you asked for
+- Replace `GGD-145` by the ticket ID you asked for
 - Replace `Fix issue abc` by the ticket title you asked for
 
 ## Create a ticket
 
 ```bash
 cd ~/dev/ # workspace
-gg do create ticket gGS-145 -m"Fix issue abc"
-cd tickets/gGS-145
+gg do create ticket GGD-145 -m"Fix issue abc"
+cd tickets/GGD-145
 ```
 
 ## Choose the project management repo — or work without one
