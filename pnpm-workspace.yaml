@@ -1,2 +1,6 @@
 minimumReleaseAgeExclude:
   - '@ggdna/*'
+overrides:
+  "@ggdna\/dna-gg": link:../dna_gg
+  "@ggdna\/dna-readme": link:../dna_readme
+  "@ggdna\/dna-vscode": link:../dna_vscode

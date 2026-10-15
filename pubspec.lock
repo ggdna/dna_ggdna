@@ -116,10 +116,9 @@ packages:
   dna_gg:
     dependency: "direct main"
     description:
-      name: dna_gg
-      sha256: "73d764c7bdf4b624c871ac4b77e91ed0234cb59e643d175451e015fc7940b937"
-      url: "https://pub.dev"
-    source: hosted
+      path: "../dna_gg"
+      relative: true
+    source: path
     version: "0.9.0"
   dna_github:
     dependency: transitive
@@ -164,10 +163,9 @@ packages:
   dna_readme:
     dependency: "direct main"
     description:
-      name: dna_readme
-      sha256: b8b6152769bdbba3d8597c3c4e667d900dbb6b63bdd7f1331d402726a8dd3c6d
-      url: "https://pub.dev"
-    source: hosted
+      path: "../dna_readme"
+      relative: true
+    source: path
     version: "0.3.0"
   dna_scripts:
     dependency: "direct main"
@@ -188,10 +186,9 @@ packages:
   dna_vscode:
     dependency: "direct main"
     description:
-      name: dna_vscode
-      sha256: "84912400705b25abc8abc377c3f1c603a2ed5968f20ae42b7ddf6a6ff32fac48"
-      url: "https://pub.dev"
-    source: hosted
+      path: "../dna_vscode"
+      relative: true
+    source: path
     version: "0.4.0"
   ffi:
     dependency: transitive
