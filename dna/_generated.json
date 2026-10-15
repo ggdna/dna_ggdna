@@ -21,7 +21,7 @@
       "name": "dna-readme",
       "package": "@ggdna/dna-readme",
       "ecosystem": "node",
-      "resolvedVersion": "0.2.0",
+      "resolvedVersion": "0.3.0",
       "via": null,
       "hash": "0xb8eeee4e2937ca0d"
     },
@@ -69,7 +69,7 @@
       "name": "dna-vscode",
       "package": "@ggdna/dna-vscode",
       "ecosystem": "node",
-      "resolvedVersion": "0.3.0",
+      "resolvedVersion": "0.4.0",
       "via": null,
       "hash": "0xb1b916118eb63333"
     },
@@ -101,7 +101,7 @@
       "name": "dna-gg",
       "package": "@ggdna/dna-gg",
       "ecosystem": "node",
-      "resolvedVersion": "0.8.1",
+      "resolvedVersion": "0.9.0",
       "via": null,
       "hash": "0x2583c9e1629c0937"
     },
