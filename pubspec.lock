@@ -156,10 +156,9 @@ packages:
   dna_readme:
     dependency: "direct main"
     description:
-      name: dna_readme
-      sha256: bd9ee497630164ec5743bf6de9112cc399ae2d17b5a20917d123f0d720ad0b5d
-      url: "https://pub.dev"
-    source: hosted
+      path: "../dna_readme"
+      relative: true
+    source: path
     version: "0.3.1"
   dna_scripts:
     dependency: "direct main"

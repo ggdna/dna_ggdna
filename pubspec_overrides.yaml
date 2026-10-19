@@ -26,3 +26,5 @@ dependency_overrides:
     path: ../dna_gg
   dna_github:
     path: ../dna_github
+  dna_readme:
+    path: ../dna_readme

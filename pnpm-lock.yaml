@@ -16,6 +16,7 @@ overrides:
   '@ggdna/dna-scripts': link:../dna_scripts
   '@ggdna/dna-translate': link:../dna_translate
   '@ggdna/dna-vscode': link:../dna_vscode
+  '@ggdna/dna-readme': link:../dna_readme
 
 importers:
 
@@ -43,8 +44,8 @@ importers:
         specifier: link:../dna_install
         version: link:../dna_install
       '@ggdna/dna-readme':
-        specifier: ^0.3.0
-        version: 0.3.0
+        specifier: link:../dna_readme
+        version: link:../dna_readme
       '@ggdna/dna-scripts':
         specifier: link:../dna_scripts
         version: link:../dna_scripts
@@ -64,10 +65,6 @@ importers:
 
 packages:
 
-  '@ggdna/dna-readme@0.3.0':
-    resolution: {integrity: sha512-1dCfaV3aIur2UHcL2a5xqNqbDpPBWJPhoIQutnBL3Wouq4kaCAmBQMyypUOJBX66MHTXxv1LBzwKqaiqMdlBRQ==}
-    engines: {node: '>=22'}
-
   '@types/node@26.6.5':
     resolution: {integrity: sha512-uMzsv9stDdofIZBx4UGh4Z9ZgXnGC9seRDscilBcTHAeOFk67MZg/k9bWVfO+bk4qZmG+l52hRnLwUiH2LnJTg==}
 
@@ -80,8 +77,6 @@ packages:
     resolution: {integrity: sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==}
 
 snapshots:
-
-  '@ggdna/dna-readme@0.3.0': {}
 
   '@types/node@26.6.5':
     dependencies:
