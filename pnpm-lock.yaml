@@ -15,8 +15,8 @@ importers:
         specifier: ^0.2.1
         version: 0.2.1
       '@ggdna/dna-gg':
-        specifier: ^0.10.0
-        version: 0.10.0
+        specifier: ^0.11.1
+        version: 0.11.1
       '@ggdna/dna-guides':
         specifier: ^0.2.0
         version: 0.2.0
@@ -30,8 +30,8 @@ importers:
         specifier: ^0.2.0
         version: 0.2.0
       '@ggdna/dna-readme':
-        specifier: ^0.3.0
-        version: 0.3.0
+        specifier: ^0.3.1
+        version: 0.3.1
       '@ggdna/dna-scripts':
         specifier: ^0.3.0
         version: 0.3.0
@@ -59,12 +59,12 @@ packages:
     resolution: {integrity: sha512-EGTBhFi/Q37jLeNXhlaz39OAijQsOXQEo5QGX7TpgyJ7hrjx9+XlwwIsJYwrI0kDMKuRy5TAK1jmMVcf1WTR5Q==}
     engines: {node: '>=22'}
 
-  '@ggdna/dna-gg@0.10.0':
-    resolution: {integrity: sha512-91Y3fIHj33V4Xam48AGmMBgrvF1s99qb3JXS1Ebanad1NOr6ADO/sQEecgrmlmSMq0LRp/ruQXh03winifrGAA==}
+  '@ggdna/dna-gg@0.11.1':
+    resolution: {integrity: sha512-LjjvPwlCLq6kTXhaeAcGvGOw+zF0pcYn/FXkg0jXJMiX89YVE36xvIvMT2n7TY2hjkLDH9oO9VObiZhPPPImhg==}
     engines: {node: '>=22'}
 
-  '@ggdna/dna-github@0.1.0':
-    resolution: {integrity: sha512-AsAJPAcB4VMYe7/1ipCCqn9Sg/k6C1h/RYXPBb52Vz2SVq37O+vB5ihgl1sjBPSQ56x9/j6C3yQiFXJNDrQ3KQ==}
+  '@ggdna/dna-github@0.1.1':
+    resolution: {integrity: sha512-6K79BopuKYrZd0k017tVfJYK6+zeiz5bUkIxdcR9Bgv567AdWV42YzAHHFT/z2mPPl3sqCvNPAEXRLwUOCDbKQ==}
     engines: {node: '>=22'}
 
   '@ggdna/dna-guides@0.2.0':
@@ -83,8 +83,8 @@ packages:
     resolution: {integrity: sha512-EIeGLKCSV2aBfdafgJK0ZrwHe/4t6B74MdLyw4UtbhrBivSZ2DYZfxGXohMffyOAxa8AJ1eUopPdhwyzYBKNjA==}
     engines: {node: '>=22'}
 
-  '@ggdna/dna-readme@0.3.0':
-    resolution: {integrity: sha512-1dCfaV3aIur2UHcL2a5xqNqbDpPBWJPhoIQutnBL3Wouq4kaCAmBQMyypUOJBX66MHTXxv1LBzwKqaiqMdlBRQ==}
+  '@ggdna/dna-readme@0.3.1':
+    resolution: {integrity: sha512-pChOh9A5peNDsjBhgGEqJR4et29LL7frLN6ou4PuKtGUd/oniqFCfVEVdaSeI4QGPZfNcf/re4W6fys/9WMbzA==}
     engines: {node: '>=22'}
 
   '@ggdna/dna-scripts@0.3.0':
@@ -116,13 +116,13 @@ snapshots:
 
   '@ggdna/dna-clean-code@0.2.1': {}
 
-  '@ggdna/dna-gg@0.10.0':
+  '@ggdna/dna-gg@0.11.1':
     dependencies:
-      '@ggdna/dna-github': 0.1.0
+      '@ggdna/dna-github': 0.1.1
       '@ggdna/dna-index': 0.2.0
       '@ggdna/dna-install': 0.2.0
 
-  '@ggdna/dna-github@0.1.0': {}
+  '@ggdna/dna-github@0.1.1': {}
 
   '@ggdna/dna-guides@0.2.0': {}
 
@@ -132,7 +132,7 @@ snapshots:
 
   '@ggdna/dna-install@0.2.0': {}
 
-  '@ggdna/dna-readme@0.3.0': {}
+  '@ggdna/dna-readme@0.3.1': {}
 
   '@ggdna/dna-scripts@0.3.0': {}
 

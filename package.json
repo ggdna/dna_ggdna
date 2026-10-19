@@ -1,6 +1,6 @@
 {
   "name": "@ggdna/dna-ggdna",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "DNA of all ggdna repos: everything needed to author a DNA layer",
   "keywords": [
     "dna",
@@ -41,12 +41,12 @@
   "dependencies": {
     "@ggdna/dna-blog": "^0.3.0",
     "@ggdna/dna-clean-code": "^0.2.1",
-    "@ggdna/dna-gg": "^0.10.0",
+    "@ggdna/dna-gg": "^0.11.1",
     "@ggdna/dna-guides": "^0.2.0",
     "@ggdna/dna-helix": "^0.3.0",
     "@ggdna/dna-index": "^0.2.0",
     "@ggdna/dna-install": "^0.2.0",
-    "@ggdna/dna-readme": "^0.3.0",
+    "@ggdna/dna-readme": "^0.3.1",
     "@ggdna/dna-scripts": "^0.3.0",
     "@ggdna/dna-translate": "^0.3.0",
     "@ggdna/dna-vscode": "^0.4.0"
