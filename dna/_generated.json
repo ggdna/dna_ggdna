@@ -37,9 +37,9 @@
       "name": "dna-translate",
       "package": "@ggdna/dna-translate",
       "ecosystem": "node",
-      "resolvedVersion": "0.2.0",
+      "resolvedVersion": "0.3.0",
       "via": null,
-      "hash": "0x1c92ce37a7ede19b"
+      "hash": "0xfec6f71367d12db6"
     },
     {
       "name": "dna-index",
@@ -53,9 +53,9 @@
       "name": "dna-blog",
       "package": "@ggdna/dna-blog",
       "ecosystem": "node",
-      "resolvedVersion": "0.2.0",
+      "resolvedVersion": "0.3.0",
       "via": null,
-      "hash": "0x2aafe5211ebd4365"
+      "hash": "0x49bf0909e92d37bb"
     },
     {
       "name": "dna-install",
@@ -101,9 +101,9 @@
       "name": "dna-gg",
       "package": "@ggdna/dna-gg",
       "ecosystem": "node",
-      "resolvedVersion": "0.9.0",
+      "resolvedVersion": "0.10.0",
       "via": null,
-      "hash": "0x2583c9e1629c0937"
+      "hash": "0x2437308eb192d742"
     },
     {
       "name": "self",
@@ -123,7 +123,7 @@
   "instances": [
     {
       "path": ".claude/skills/blog/SKILL.md",
-      "hash": "0x95dc35138451875e"
+      "hash": "0x9d1bc995f32bf04e"
     },
     {
       "path": ".claude/skills/code/SKILL.md",
@@ -191,7 +191,7 @@
     },
     {
       "path": ".claude/skills/translate/SKILL.md",
-      "hash": "0x163ede8282c2d33e"
+      "hash": "0x779eca56ba6f7067"
     },
     {
       "path": ".claude/skills/vscode/SKILL.md",
@@ -219,7 +219,7 @@
     },
     {
       "path": "doc/guides/blog-guide.md",
-      "hash": "0xe3970fe0ed186fd4"
+      "hash": "0xc41913add526e0d4"
     },
     {
       "path": "doc/guides/code-guide-dart.md",
@@ -255,7 +255,7 @@
     },
     {
       "path": "doc/guides/for-ai/ai-dev-guide.md",
-      "hash": "0x578cb52a49260fdc"
+      "hash": "0x1dfc03fca83f6a07"
     },
     {
       "path": "doc/guides/for-ai/ai-review-guide.md",
@@ -343,7 +343,7 @@
     },
     {
       "path": "doc/guides/translate-guide.md",
-      "hash": "0xfefb418243f976a6"
+      "hash": "0x750cc1c4c6e722a9"
     },
     {
       "path": "doc/guides/vscode-guide.md",
@@ -351,11 +351,11 @@
     },
     {
       "path": "doc/templates/blog-template-de.md",
-      "hash": "0xb0815831abf18fda"
+      "hash": "0x165f6485ea0f1a29"
     },
     {
       "path": "doc/templates/blog-template.md",
-      "hash": "0x5ae50ee88af4f8fa"
+      "hash": "0x2f41b16d752ec5d3"
     },
     {
       "path": "doc/templates/index-template.jsonc",
