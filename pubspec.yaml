@@ -1,5 +1,5 @@
 name: dna_ggdna
-description: "DNA of all ggdna repos: everything needed to author a DNA layer"
+description: "Gives a ggdna repo every topic layer, the authoring guide for DNA layers and the ggdna identity in one dependency."
 version: 0.5.0
 repository: https://github.com/ggdna/dna_ggdna.git
 
