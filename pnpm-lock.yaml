@@ -21,8 +21,8 @@ importers:
         specifier: ^0.2.0
         version: 0.2.0
       '@ggdna/dna-helix':
-        specifier: ^0.3.0
-        version: 0.3.0
+        specifier: ^0.3.1
+        version: 0.3.1
       '@ggdna/dna-index':
         specifier: ^0.2.0
         version: 0.2.0
@@ -71,8 +71,8 @@ packages:
     resolution: {integrity: sha512-abcWI3W+b8U/uxSV6f9XGOHpaUXKHdqIbWgSczLq61ueOl0xSRJUZD+BeF6dasyV3blJ0Ir84vju6ioe8VTpyg==}
     engines: {node: '>=22'}
 
-  '@ggdna/dna-helix@0.3.0':
-    resolution: {integrity: sha512-rb1VdChFUfU0A5Quckt5xMRD1AS6xh9OJ+05GHGTo2lzvxVuAisCXKqdZY38hht2/T8Bcov4eJ+hiWC7x11nDQ==}
+  '@ggdna/dna-helix@0.3.1':
+    resolution: {integrity: sha512-zxqctnjZOg+NVoP4p0HNmWGXw/9mUrlmpAhr5p4BeaAvY8Qgd0eFyGgUFDNcNmKSyiGAmmNyHC1izs6bwUbJzQ==}
     engines: {node: '>=22'}
 
   '@ggdna/dna-index@0.2.0':
@@ -126,7 +126,7 @@ snapshots:
 
   '@ggdna/dna-guides@0.2.0': {}
 
-  '@ggdna/dna-helix@0.3.0': {}
+  '@ggdna/dna-helix@0.3.1': {}
 
   '@ggdna/dna-index@0.2.0': {}
 
