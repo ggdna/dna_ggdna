@@ -9,7 +9,7 @@ environment:
 dependencies:
   dna_helix: ^0.3.1
   dna_blog: ^0.3.0
-  dna_clean_code: ^0.2.1
+  dna_clean_code: ^0.2.2
   dna_guides: ^0.2.0
   dna_index: ^0.2.0
   dna_install: ^0.2.0
