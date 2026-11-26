@@ -100,87 +100,99 @@ packages:
   dna_blog:
     dependency: "direct main"
     description:
-      path: "../dna_blog"
-      relative: true
-    source: path
-    version: "0.5.1"
+      name: dna_blog
+      sha256: "63ab62771cba693c63787fbb2fbd29aa7d785e5a6384e780075c0bfd72106360"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.6.0"
   dna_clean_code:
     dependency: "direct main"
     description:
-      path: "../dna_clean_code"
-      relative: true
-    source: path
-    version: "0.5.1"
+      name: dna_clean_code
+      sha256: c0ab3e4a76a0cfe71efeb2210fc64b46ed49fdd347ccf714aa95f879b9e09baf
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.6.0"
   dna_gg:
     dependency: "direct main"
     description:
-      path: "../dna_gg"
-      relative: true
-    source: path
-    version: "1.9.2"
+      name: dna_gg
+      sha256: "5f67555970cc47c3d1a14354b64bc6bcbf5cdfd7c0be6b7e0bb3fcbfea6ae7f0"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.0"
   dna_github:
-    dependency: "direct overridden"
+    dependency: transitive
     description:
-      path: "../dna_github"
-      relative: true
-    source: path
-    version: "0.2.1"
+      name: dna_github
+      sha256: "167ac52d48e9e16dd94cce0ae579b7abe89e8b01d2470dc3cd9e5fb0b022db11"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.3.0"
   dna_guides:
     dependency: "direct main"
     description:
-      path: "../dna_guides"
-      relative: true
-    source: path
-    version: "0.3.1"
+      name: dna_guides
+      sha256: "2fc49bdd66fc7fb87471eddc5482ec7162e842964246a2807fc155df8bffb4f0"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.4.0"
   dna_helix:
     dependency: "direct main"
     description:
-      path: "../dna_helix"
-      relative: true
-    source: path
-    version: "0.4.1"
+      name: dna_helix
+      sha256: "00e107e660e32cb9019e2bade7d48b91b42fbfd1e59e5ca2c1d16811863b6fd5"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.0"
   dna_index:
     dependency: "direct main"
     description:
-      path: "../dna_index"
-      relative: true
-    source: path
-    version: "0.3.1"
+      name: dna_index
+      sha256: "2610cb379d789111701eaeecf8e022029073497ea4d324f462428d96e3e7b726"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.4.0"
   dna_install:
     dependency: "direct main"
     description:
-      path: "../dna_install"
-      relative: true
-    source: path
-    version: "0.4.0"
+      name: dna_install
+      sha256: "481e71bb89d9ee03ffb6d95e39e9d6cadbffaa9b01825ba5c9bcf164fb73975c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.0"
   dna_readme:
     dependency: "direct main"
     description:
-      path: "../dna_readme"
-      relative: true
-    source: path
-    version: "0.4.1"
+      name: dna_readme
+      sha256: "21fe7ad48765d35b326a10c813304fb4e0c7b408e42e601d5d4f7149d10be52f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.0"
   dna_scripts:
     dependency: "direct main"
     description:
-      path: "../dna_scripts"
-      relative: true
-    source: path
-    version: "0.4.1"
+      name: dna_scripts
+      sha256: "7c8e633cf842ab3177399947cf3cf0766abc26493924b24f120344b882ced4df"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.0"
   dna_translate:
     dependency: "direct main"
     description:
-      path: "../dna_translate"
-      relative: true
-    source: path
-    version: "0.5.1"
+      name: dna_translate
+      sha256: d138a9a792df63ea24c30a28cb55d0c3c97d2f048830d8a37d9d8b53031dccf0
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.6.0"
   dna_vscode:
     dependency: "direct main"
     description:
-      path: "../dna_vscode"
-      relative: true
-    source: path
-    version: "0.5.1"
+      name: dna_vscode
+      sha256: "308026923445f247cf391be16da08bd9d78b774d5dec545fd4924ff23feb3052"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.6.0"
   ffi:
     dependency: transitive
     description:
@@ -574,4 +586,4 @@ packages:
     source: hosted
     version: "3.1.4"
 sdks:
-  dart: ">=3.13.0 <4.0.0"
+  dart: ">=3.14.0 <4.0.0"
