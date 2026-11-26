@@ -9,4 +9,4 @@
 // coverage:ignore-file
 
 /// The version of the `dna_ggdna` package.
-const String dnaGgdnaVersion = '1.0.0';
+const String dnaGgdnaVersion = '1.0.1';
