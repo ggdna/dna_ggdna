@@ -5,7 +5,7 @@
       "name": "base",
       "package": "helix",
       "ecosystem": null,
-      "resolvedVersion": "1.16.0",
+      "resolvedVersion": "1.17.0",
       "via": null,
       "hash": "0x6883da335b415f9d"
     },
@@ -119,9 +119,10 @@
     "claudeMdFromDna": true,
     "blockHash": "0x24c24315d2f20621"
   },
-  "baseVersion": "1.16.0",
+  "baseVersion": "1.17.0",
   "baseHash": "0x6883da335b415f9d",
   "configHash": "0xacec7753608bf07f",
+  "gitignoreHash": "0x1b0ee74d5e941279",
   "instances": [
     {
       "path": ".claude/CLAUDE_dna_gg.md",
@@ -217,7 +218,7 @@
     },
     {
       "path": ".prettierignore",
-      "hash": "0x9e5afe8bbdb91467"
+      "hash": "0xa9fd5da39e11b3db"
     },
     {
       "path": ".prettierrc",
@@ -225,7 +226,7 @@
     },
     {
       "path": ".pubignore",
-      "hash": "0x43fdf36825634b35"
+      "hash": "0x8eb9c39c3b33e48d"
     },
     {
       "path": ".vscode/extensions.json",
