@@ -13,10 +13,10 @@ build
 .gg/publish_state.json
 
 # dna-helix
-/doc/guides/
+/doc/*/guides/
 
 # dna-readme
-/doc/templates/
+/doc/*/templates/
 /scripts/
 
 # dna-gg
